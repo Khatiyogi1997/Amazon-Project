@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+/* Border Hover */
+.border {
+  border: 2px solid transparent;
+}
+.border:hover{
+  border: 2px solid white;
+}
+
+/* Complete Navbar */
+
+.navbar {
+  height: 70px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* First Box */
+
+.FirstBox{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AmazonLogo {
+  height: 50px;
+  width: 7rem;
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.address i{
+  font-size: 22px;
+}
+.deliver-to {
+color: #cccccc;
+font-size: 12px;
+}
+
+.India {
+ font-size: 14px;
+ font-weight: 700;
+}
+
+/* search bar */
+.nav-search{
+ height: 40px;
+ width: 600px;
+ border-radius: 4px;
+ display: flex;
+ justify-content: center;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.search-select{
+  width: 45px;
+  font-size: 14px;
+  text-size-adjust: 20px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  background-color: #f3f3f3;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.search-input{
+  width:100%;
+  font-size: 12px;
+  border: none;
+}
+.nav-search input:hover{
+  border:4px solid rgb(215, 163, 29) ;
+}
+.search-icon{
+  width: 45px;
+  display: flex;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: rgb(215, 163, 29);
+}
+
+/* sign In  */
+.nav-signin{
+  height: 50px;
+  width: 110px;
+  align-self: flex-end;
+  /* margin-left: 10px; */
+}
+
+.hello{
+  font-size: 12px;
+  /* padding-right: 10px; */
+}
+.Account{
+  font-size: 14px;
+  font-weight: 700;
+  
+}
+/* cart  */
+.nav-cart i{
+  font-size: 30px;
+}
+.nav-cart{
+  font-size: 14px;
+  font-weight: 800;
+}
+/* Panel */
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.panel p{
+  display: inline;
+  margin-left: 15px;
+}
+.panel-option{
+  font-size: 12px;
+  width: 400px;
+}
+.panel-deals{
+  width: 200px;
+  font-size:14px;
+  font-weight: 700;
+}
+/* hero section */
+
+.hero-section{
+  height:400px;
+  background-image: url(hero_image.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-message{
+  height: 40px;
+  width: 1000px;
+  background-color: white;
+  font-size: 0.85rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  
+}
+.hero-message a{
+  color: #007185;
+}
+
+/* Shop section */
+.shop-section{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  background-color: #e2e7e6;
+}
+.box{
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  padding: 20px 0 15px;
+  margin-top: 1rem;
+
+}
+.box-image{
+  height: 300px;
+  background-size: cover;
+  margin-top: 16px;
+  margin-bottom:32px;
+}
+.box-content{
+  margin-left: 16px;
+  margin-right: 32px;
+}
+.box-content p{
+  color: #007185;
+}
+/* footer */
+footer{
+  margin-top: 15px;
+}
+.footer-panel-1{
+  font-size: 16px;
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-panel-2{
+  background-color: #222f3d;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul{
+  margin-top: 25px;
+}
+
+ul a{
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #dddddd;
+}
+ul p{
+  font-weight: 700;
+}
+.footer-panel-3{
+  background-color: #222f3d;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-panel-4{
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.Condition a{
+  font-size: 16px;
+  gap: 100px;
+}
+
+.copyright{
+  font-size: 12px;
+}
